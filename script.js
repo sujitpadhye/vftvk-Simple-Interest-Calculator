@@ -1,6 +1,13 @@
 function compute()
 {
     var principal = document.getElementById("principal").value;
+    if(principal<1){
+        alert("Enter a positive number");
+        return false;
+        console.log(principal);
+        
+    }
+    var principal = document.getElementById("principal").value;
     var rate = document.getElementById("rate").value;
     var years = document.getElementById("years").value;
     var amount = principal * years * rate /100;
@@ -13,6 +20,3 @@ function updateRate()
     var rateval = document.getElementById("rate").value;
     document.getElementById("rate_val").innerText=rateval;
 }
-
-
-        

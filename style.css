@@ -1,10 +1,24 @@
+#title{
+    position: relative;
+    
+    left: 40px;
+}
 body {background-color:black;font-family:arial;color:white}
 h1{color:grey;font-family:verdana}
+
 .maindiv{
     background-color:white;
     color:black;
-    width:300px;
+    width:400px;
+    height: 200;
     padding:20px;
     border-radius:20px;
-    align:center
+    margin: auto;
+  }
+
+h1{color:gray;
+    font-family:verdona;
+}
+span.highlight{
+    background-color: yellow;
 }
